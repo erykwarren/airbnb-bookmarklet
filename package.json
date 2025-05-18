@@ -1,0 +1,19 @@
+{
+  "name": "airbnb-bookmarklet",
+  "version": "1.0.0",
+  "description": "Minification script for Airbnb bookmarklet",
+  "type": "module",
+  "main": "minify.mjs",
+  "scripts": {
+    "minify": "node minify.mjs",
+    "format": "prettier --write \"*.{js,mjs,json,md}\"",
+    "format:check": "prettier --check \"*.{js,mjs,json,md}\""
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "terser": "^5.29.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
